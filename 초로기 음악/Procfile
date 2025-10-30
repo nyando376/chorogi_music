@@ -1,0 +1,2 @@
+web: cd melody-service && npm ci && npm start
+
