@@ -1,0 +1,16 @@
+{
+  "name": "melody-monorepo",
+  "private": true,
+  "workspaces": [
+    "melody-service"
+  ],
+  "scripts": {
+    "start": "npm --prefix melody-service start",
+    "dev": "npm --prefix melody-service run dev",
+    "install:service": "npm --prefix melody-service ci || npm --prefix melody-service install"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
